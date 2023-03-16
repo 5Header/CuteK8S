@@ -3,9 +3,9 @@ kind: Deployment
 metadata:
   name: cuteapp
 spec:
-  replicas: 6
+  replicas: 12
   strategy:
-    type: RollingUpdate
+    type: Recreate
     rollingUpdate:
       maxUnavailable: 1
       maxSurge: 1
