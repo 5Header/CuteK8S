@@ -11,3 +11,5 @@ spec:
   source:
     path: cuteapp
     repoURL: https://github.com/wubbl0rz/CuteK8S
+  syncPolicy:
+    automated: {}
