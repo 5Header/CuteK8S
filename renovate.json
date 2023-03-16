@@ -2,5 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>wubbl0rz/renovate-config"
-  ]
+  ],
+  "kubernetes": {
+    "fileMatch": [
+      "\\.yaml$"
+    ]
+  }
 }
