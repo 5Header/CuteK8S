@@ -6,9 +6,6 @@ spec:
   replicas: 12
   strategy:
     type: Recreate
-    rollingUpdate:
-      maxUnavailable: 1
-      maxSurge: 1
   selector:
     matchLabels:
       app: cuteapp
