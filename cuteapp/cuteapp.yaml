@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: cuteapp
-          image: ghcr.io/wubbl0rz/cuteapp:v0.0.4
+          image: ghcr.io/wubbl0rz/cuteapp:v0.0.5
           resources:
             limits:
               memory: "128Mi"
