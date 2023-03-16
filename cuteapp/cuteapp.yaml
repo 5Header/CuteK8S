@@ -3,9 +3,12 @@ kind: Deployment
 metadata:
   name: cuteapp
 spec:
-  replicas: 12
+  replicas: 6
   strategy:
-    type: Recreate
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
   selector:
     matchLabels:
       app: cuteapp
@@ -16,7 +19,7 @@ spec:
     spec:
       containers:
         - name: cuteapp
-          image: ghcr.io/wubbl0rz/cuteapp:v0.0.4
+          image: ghcr.io/wubbl0rz/cuteapp:v0.0.5
           resources:
             limits:
               memory: "128Mi"
