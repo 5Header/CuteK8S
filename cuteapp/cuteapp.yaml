@@ -72,5 +72,5 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - cuteapp.kappalul.com
-      secretName: cuteapp-tls
+        - cuteapp-prod.kappalul.com
+      secretName: cuteapp-prod-tls
