@@ -9,7 +9,7 @@ spec:
     email: admin@kappalul.com
     server: https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
-      name: letsencrypt-key
+      name: letsencrypt-prod-key
     solvers:
       - dns01:
           cloudflare:
