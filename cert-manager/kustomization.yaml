@@ -11,3 +11,4 @@ helmCharts:
 resources:
   - namespace.yaml
   - cert-manager.yaml
+  - secrets.yaml
