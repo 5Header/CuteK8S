@@ -9,7 +9,7 @@ spec:
     email: admin@kappalul.com
     server: https://acme-staging-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
-      name: letsencrypt-prod-key
+      name: letsencrypt-staging-key
     solvers:
       - dns01:
           cloudflare:
