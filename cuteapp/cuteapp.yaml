@@ -55,6 +55,8 @@ metadata:
   name: cuteapp
   labels:
     name: cuteapp
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod-cloudflare-dns"
 spec:
   ingressClassName: nginx
   rules:
