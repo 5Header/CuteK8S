@@ -60,7 +60,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: cuteapp.kappalul.com
+    - host: cuteapp-prod.kappalul.com
       http:
         paths:
           - pathType: Prefix
