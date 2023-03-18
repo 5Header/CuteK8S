@@ -27,6 +27,10 @@ spec:
         grafana:
           service:
             type: ClusterIP
+          additionalDataSources:
+            - name: loki
+              type: loki
+              url: http://loki.observe.svc.cluster.local:3100
   destination:
     server: "https://kubernetes.default.svc"
     namespace: observe
