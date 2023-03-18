@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: cuteapp
 spec:
-  replicas: 9
+  replicas: 2
   strategy:
     type: RollingUpdate
     rollingUpdate:
