@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: apps
-    repoURL: https://github.com/wubbl0rz/CuteK8s.git
+    repoURL: https://github.com/5Header/CuteK8s.git
   syncPolicy:
     automated:
       prune: true

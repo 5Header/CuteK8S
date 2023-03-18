@@ -10,6 +10,6 @@ spec:
   project: default
   source:
     path: cuteapp
-    repoURL: https://github.com/wubbl0rz/CuteK8S
+    repoURL: https://github.com/5Header/CuteK8S
   syncPolicy:
     automated: {}
