@@ -68,3 +68,7 @@ spec:
                 name: cuteapp
                 port:
                   number: 80
+  tls:
+    - hosts:
+        - cuteapp.kappalul.com
+      secretName: cuteapp-tls
